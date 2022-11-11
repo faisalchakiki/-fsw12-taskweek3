@@ -6,7 +6,7 @@ function validasiValue(nilaiAwal, nilaiAkhir, dataArr) {
   }
 
   if (nilaiAwal < nilaiAkhir) {
-    dataArr.filter((v) => {
+    dataArr.forEach((v) => {
       if (v > nilaiAwal && v < nilaiAkhir) {
         result.push(v);
       }

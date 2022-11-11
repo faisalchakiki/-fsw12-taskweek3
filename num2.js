@@ -21,4 +21,4 @@ function showResult(result){
 }
 
 searching("an", 3 , showResult)
-searching("Ab", 3 , showResult)
+searching("Ab", 2 , showResult)
